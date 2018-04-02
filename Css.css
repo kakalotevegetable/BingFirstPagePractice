@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    height:30px; float:left; display:flex;justify-content:space-between;
+    height:30px; float:left; display:flex; justify-content:space-between; align-items:space-between;
 }
 div#login{
 	flex:0 0 10%;
@@ -14,7 +14,8 @@ main{
 	flex:2;
 }
 footer{
-	background-color:gray; margin-bottom:0px;height:30px;margin-top:1000px;
+	
+	display:flex; justify-content:center; align-items:flex-end;
 }
 ul#topul{
 	align-content:space-betwwen;
@@ -27,7 +28,7 @@ li{
 }
 div#div1{
 	height:700px; margin-top:50px; margin-left:50px; cellspacing:50px; padding:50px; 
-	border:#red 1px solid;display:flex; flex-flow:row wrap; justfy-content:between;
+	border:#red 1px solid; display:flex; flex-flow:row wrap; justfy-content:between;
 }
 
 a{
@@ -50,7 +51,7 @@ div#topbar{
 	display:-moz-box;
 	display:-webkit-box;
 	margin-left:80;
-	display:flex; flex-flow:row wrap; justfy-content:between;align-content:space-between;
+	display:flex; flex-wrap:wrap; flex-flow:row wrap; justfy-content:between; align-content:space-between;
 }
 
 
@@ -62,7 +63,8 @@ inpout#search{
 }
 
 div#footerbar a{
-	background-color:white; disply:inline-block; color:red;
+	background-color:none; color:green;
+	display:inline-block;
 }
 div#footerbar a:hover{
 	color:violet;
