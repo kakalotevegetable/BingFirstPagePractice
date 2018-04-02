@@ -15,7 +15,7 @@ main{
 }
 footer{
 	
-	display:flex; justify-content:center; align-items:flex-end;
+	background-color:black; display:flex; justify-content:center; align-items:flex-end;
 }
 ul#topul{
 	align-content:space-betwwen;
