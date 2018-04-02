@@ -1,0 +1,62 @@
+body{
+    background-image:url("Images/Bing_bgiamge.jpg"); background-attachment:fixed;
+    align:center; display:flex; display:inline-block; width:1000px; 
+}
+
+header{
+    height:30px; 
+}
+
+div#div1{
+	height:700px; margin-top:50px; margin-left:50px; cellspacing:50px; padding:50px; 
+	border:#red 1px solid;
+	
+}
+
+a{
+    position:left; text-decoration:none; background-color:gray; display:inline-block;
+}
+a:hover{
+	color:red; text-decoration:underline;
+}
+a#searchbt{
+	background-color:white;text-shadow:none;
+}
+
+div{
+    margin-top:80px; 
+}
+#topbar{
+	display:-moz-box;
+	display:-webkit-box;
+	margin-left:80;
+}
+
+ul{
+    position:left; align:center;
+	
+}
+li{
+    display:inline-block;
+}
+form{
+    align:center;
+}
+inpout#search{
+    height:30px; width:100px;
+}
+copyright:hover{
+    color:red;
+}
+footer{
+	float:left; display:inline-block;
+}
+div#footerbar{
+	background-color:gray;
+}
+div#footerbar a:hover{
+	textdecoration:underline; color:orange;
+}
+div#footerbar a:visited{
+	color:purple;
+}

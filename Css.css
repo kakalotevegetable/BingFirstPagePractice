@@ -1,0 +1,72 @@
+body{
+    background-image:url("Images/Bing_bgimage.jpg"); background-attachment:fixed; width:1000px;
+    display:flex; min-height:100vh; flex-direction:column;
+}
+
+header{
+    height:30px; float:left; display:flex;justify-content:space-between;
+}
+div#login{
+	flex:0 0 10%;
+	
+}
+main{
+	flex:2;
+}
+footer{
+	background-color:gray; margin-bottom:0px;height:30px;margin-top:1000px;
+}
+ul#topul{
+	align-content:space-betwwen;
+}
+ul{
+    position:left; align:center;	
+}
+li{
+    display:inline-block;
+}
+div#div1{
+	height:700px; margin-top:50px; margin-left:50px; cellspacing:50px; padding:50px; 
+	border:#red 1px solid;display:flex; flex-flow:row wrap; justfy-content:between;
+}
+
+a{
+    position:left; text-decoration:none; background-color:none; display:inline-block;
+}
+a:hover{
+	color:red; text-decoration:underline;
+}
+a:visited{
+	color:green; text-decoration:undeline;
+}
+a#searchbt{
+	background-color:white;text-shadow:none;
+}
+
+div{
+    margin-top:10px; margin-bottom:0px;
+}
+div#topbar{
+	display:-moz-box;
+	display:-webkit-box;
+	margin-left:80;
+	display:flex; flex-flow:row wrap; justfy-content:between;align-content:space-between;
+}
+
+
+form{
+    align:center;
+}
+inpout#search{
+    height:30px; width:100px;
+}
+
+div#footerbar a{
+	background-color:white; disply:inline-block; color:red;
+}
+div#footerbar a:hover{
+	color:violet;
+}
+div#footer a:visited{
+	color:green;
+}
