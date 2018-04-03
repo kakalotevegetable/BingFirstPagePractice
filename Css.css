@@ -56,7 +56,7 @@ div#topbar{
 
 
 form{
-    align:center;
+    align:center; disply:flex;justify-content:center;
 }
 inpout#search{
     height:30px; width:100px;
